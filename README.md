@@ -3,8 +3,8 @@ React version of DocSign DAPP
 
 С помощью этого приложения вы можете подписать документ, если ваш кошелек находится в Whitelist
 
-Для использования вам необходимо перейти на https://vikvm.github.io/DocSignReact/
-
+Для ознакомления вам необходимо перейти на https://vikvm.github.io/DocSignReact/
+Если вы опытный веб3 пользователь и не хотите читать readme, можете использовать https://doc-sign-react.vercel.app/ на свой страх и риск
 
 ![image](https://user-images.githubusercontent.com/60881781/230222536-b81db8db-45e7-4c58-b366-79fb121d517d.png)
 На главной странице сайта пользователь должен подключить свой веб3 кошелек для использования DAPP, нажав на одну из кнопок
