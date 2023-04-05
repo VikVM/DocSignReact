@@ -1,5 +1,5 @@
 {
-   "homepage": " https://vikvm.github.io/DocSignReact/",
+  "homepage": "https://myusername.github.io/my-app",
   "name": "doc-signer",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "dependencies": {
     "ethers": "^5.7.2",
@@ -15,5 +17,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
+
