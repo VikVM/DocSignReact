@@ -6,7 +6,6 @@ import { Contract, providers, ethers } from "ethers";
 import { useState, useEffect, useRef } from "react";
 import Web3Modal from "web3modal";
 import { DOC_SIGN_CONTRACT_ADDRESS, abi } from "../../constants";
-import SignDoc from "../../components/SignDoc";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
