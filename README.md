@@ -1,38 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+DAPP для подписи документа по его номеру доступный ограниченному кругу адресов, которые добавлены в Whitelist.
 
-## Getting Started
+Приложение доступно по адресу https://vikvm.github.io/DocSignReact/
 
-First, run the development server:
+## Начало работы
+![image](https://user-images.githubusercontent.com/60881781/230435762-264e3642-3792-4856-a371-c7c7d25392cb.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Необходимо подключить кошелек к DAPP, при переходе на сайте автоматически возникнет pop-up окно для подписи, также можно подключиться нажав на одну из кнопок
+![image](https://user-images.githubusercontent.com/60881781/230436049-1eab5686-5def-4deb-9de9-c509a0d901d5.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Выбранная сеть Metamask должна быть BNB Testnet
+![image](https://user-images.githubusercontent.com/60881781/230436191-995a6c50-bc08-4937-bfa0-788613ed021e.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+После подключения пользователю доступен интерфейс для работы со смарт-контрактом.
+![image](https://user-images.githubusercontent.com/60881781/230436276-36dee872-72a4-43a6-a533-638c010cf0c6.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Чтобы посмотреть список адресов в вайтлисте, следует нажать на кнопку Check
+![image](https://user-images.githubusercontent.com/60881781/230436454-c8c53a12-c1a0-43f9-8c65-50598f56a42e.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Для подписи документа необходимо ввести номер документа и нажать на кнопку Sign
+![image](https://user-images.githubusercontent.com/60881781/230436534-d0bd9193-3f86-4640-80ae-32fe860d17a2.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://user-images.githubusercontent.com/60881781/230436598-0b6aa8b5-ca64-474d-b4dc-84f8329fd6e9.png)
+Подписываем транзакцию для подписи документа
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://user-images.githubusercontent.com/60881781/230437218-550d9692-7cc5-4c16-94dd-adbdc26d9719.png)
+Договор подписан
